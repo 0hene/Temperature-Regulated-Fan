@@ -1,5 +1,6 @@
 #include <dht_nonblocking.h>
 #define DHT_SENSOR_TYPE DHT_TYPE_11
+/*Included an external library DHT, this library can be found in the repo*/
 
 static const int DHT_SENSOR_PIN = 2;
 DHT_nonblocking dht_sensor( DHT_SENSOR_PIN, DHT_SENSOR_TYPE );
